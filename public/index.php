@@ -1,4 +1,7 @@
 <?php
+
+// Página que lista os produtos cadastrados.
+
 session_start();
 require_once('../includes/db.php');
 

@@ -1,7 +1,10 @@
 <?php
+
+// Formulário para cadastro e edição de produtos.
+
 session_start();
 require_once('../includes/db.php');
-require_once('../includes/produto.php'); // Inclui a lógica de CRUD de produtos
+require_once('../includes/produto.php'); 
 
 // Lógica para edição (preenche o formulário com os dados do produto)
 if (isset($_GET['id'])) {
