@@ -44,25 +44,6 @@ O objetivo deste teste é demonstrar habilidades em:
     * Insira um usuário diretamente no banco de dados (através do phpMyAdmin ou linha de comando), usando `password_hash()` para armazenar a senha de forma segura.  Veja as instruções detalhadas no arquivo `README.md` (este arquivo).
 5. **Acesso ao Projeto:** Abra o navegador e acesse `http://localhost/teste-php-mysql/public/` (ajuste o caminho se necessário).
 
-## Estrutura de Arquivos
-teste-php-mysql/
-├── config/
-│ └── database.php
-├── includes/
-│ ├── functions.php
-│ ├── login.php
-│ ├── product.php
-│ └── database.php
-├── public/
-│ ├── index.php
-│ ├── login.php
-│ ├── product_form.php
-│ ├── logout.php
-│ ├── delete_product.php
-│ └── style.css
-└── sql/
-└── create_tables.sql
-
 ## Segurança
 
 * Senhas armazenadas com `password_hash()`.
